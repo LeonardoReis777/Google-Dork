@@ -283,3 +283,403 @@ ext:xml ("proto='prpl-'" | "prpl-yahoo" | "prpl-silc" | "prpl-icq")
 allinurl:"User_info/auth_user_file.txt"
 inurl:"/dbman/default.pass"
 "parent directory" proftpdpasswd intitle:"index of" -google
+inurl:admin
+intitle:index.of
+site:example.com ext:sql
+filetype:php intext:mysql_connect
+intext:"Powered by phpMyAdmin"
+site:example.com ext:log
+intitle:"Index of /" inurl:wp-content/uploads
+intitle:"Index of /" inurl:backup
+intitle:"Index of /" inurl:database
+filetype:env intext:DB_PASSWORD
+intitle:"Index of /" inurl:config
+filetype:xml inurl:wp-config
+filetype:txt intext:@gmail.com intext:password
+intitle:"Index of /" inurl:upload
+intitle:"Index of /" inurl:config
+inurl:wp-config.bak
+inurl:ftp intitle:"index of"
+intitle:"Index of /" inurl:htdocs
+filetype:ini inurl:wp-content
+inurl:wp-includes intext:charset=UTF-8
+intitle:"Index of /" inurl:wwwroot
+filetype:env DB_PASSWORD
+intitle:"Index of /" inurl:site
+intext:"wordpress" filetype:sql
+intitle:"Index of /" inurl:tmp
+filetype:sql intext:password
+intitle:"Index of /" inurl:etc
+filetype:env intext:DB_HOST
+inurl:etc intext:password
+filetype:sql intext:username
+intitle:"Index of /" inurl:portal
+inurl:config.php.bak
+inurl:config.php.bak.old
+filetype:sql intext:password | pass
+inurl:config.php.save
+intitle:"Index of /" inurl:files
+filetype:sql intext:@gmail.com
+inurl:wp-admin/ ext:sql
+filetype:log intext:password
+intitle:"Index of /" inurl:data
+intitle:"Index of /" inurl:var
+inurl:config.php.save
+filetype:log intext:username
+intitle:"Index of /" inurl:cms
+filetype:env intext:DB_PASS
+inurl:config.bak intext:password
+filetype:sql intext:password | pass
+inurl:config.bak intext:username
+filetype:sql intext:passwd
+inurl:config.php~
+inurl:config.php~
+inurl:config.php~
+filetype:sql intext:admin
+inurl:admin intext:username
+inurl:config.php.old
+inurl:config.php.old
+inurl:config.php.old
+filetype:log intext:password | pass
+inurl:config.old intext:password
+inurl:config.old intext:username
+filetype:log intext:@gmail.com
+inurl:config.txt intext:password
+inurl:config.txt intext:username
+filetype:log intext:admin
+inurl:config.php.new
+inurl:config.php.new
+inurl:config.php.new
+filetype:txt intext:@gmail.com
+inurl:config.txt.old
+inurl:config.txt.old
+inurl:config.txt.old
+filetype:log intext:passwd
+inurl:config.php.bak.old
+inurl:config.php.bak.old
+inurl:config.php.bak.old
+filetype:txt intext:password | pass
+inurl:config.bak.old intext:password
+inurl:config.bak.old intext:username
+filetype:txt intext:admin
+inurl:config.php.bak.new
+inurl:config.php.bak.new
+inurl:config.php.bak.new
+filetype:log intext:DB_PASSWORD
+inurl:config.php.old.intext:password
+inurl:config.php.old.intext:username
+filetype:log intext:DB_USER
+inurl:config.txt.bak
+inurl:config.txt.bak
+inurl:config.txt.bak
+filetype:log intext:DB_PASS
+inurl:config.php.save intext:password
+inurl:config.php.save intext:username
+filetype:log intext:DB_NAME
+inurl:config.php.swp
+inurl:config.php.swp
+inurl:config.php.swp
+filetype:log intext:DB_HOST
+inurl:config.php.swo
+inurl:config.php.swo
+inurl:config.php.swo
+inurl:admin
+intitle:index.of
+site:example.com ext:sql
+filetype:php intext:mysql_connect
+intext:"Powered by phpMyAdmin"
+site:example.com ext:log
+intitle:"Index of /" inurl:wp-content/uploads
+intitle:"Index of /" inurl:backup
+intitle:"Index of /" inurl:database
+filetype:env intext:DB_PASSWORD
+intitle:"Index of /" inurl:config
+filetype:xml inurl:wp-config
+filetype:txt intext:@gmail.com intext:password
+intitle:"Index of /" inurl:upload
+intitle:"Index of /" inurl:config
+inurl:wp-config.bak
+inurl:ftp intitle:"index of"
+intitle:"Index of /" inurl:htdocs
+filetype:ini inurl:wp-content
+inurl:wp-includes intext:charset=UTF-8
+intitle:"Index of /" inurl:wwwroot
+filetype:env DB_PASSWORD
+inurl:etc intext:password
+filetype:sql intext:password
+intitle:"Index of /" inurl:portal
+inurl:config.php.bak
+inurl:config.php.bak.old
+filetype:sql intext:password | pass
+inurl:config.php.save
+intitle:"Index of /" inurl:files
+filetype:sql intext:@gmail.com
+inurl:wp-admin/ ext:sql
+filetype:log intext:password
+intitle:"Index of /" inurl:data
+intitle:"Index of /" inurl:var
+inurl:config.php.save
+filetype:log intext:username
+intitle:"Index of /" inurl:cms
+filetype:env intext:DB_PASS
+inurl:config.bak intext:password
+filetype:sql intext:password | pass
+inurl:config.bak intext:username
+filetype:sql intext:passwd
+inurl:config.php~
+inurl:config.php~
+inurl:config.php~
+filetype:sql intext:admin
+inurl:admin intext:username
+inurl:config.php.old
+inurl:config.php.old
+inurl:config.php.old
+filetype:log intext:password | pass
+inurl:config.old intext:password
+inurl:config.old intext:username
+filetype:log intext:@gmail.com
+inurl:config.txt intext:password
+inurl:config.txt intext:username
+filetype:log intext:admin
+inurl:config.php.new
+inurl:config.php.new
+inurl:config.php.new
+filetype:log intext:DB_PASSWORD
+inurl:config.php.old.intext:password
+inurl:config.php.old.intext:username
+filetype:log intext:DB_USER
+inurl:config.txt.bak
+inurl:config.txt.bak
+inurl:config.txt.bak
+filetype:log intext:DB_PASS
+inurl:config.php.save intext:password
+inurl:config.php.save intext:username
+filetype:log intext:DB_NAME
+inurl:config.php.swp
+inurl:config.php.swp
+inurl:config.php.swp
+filetype:log intext:DB_HOST
+inurl:config.php.swo
+inurl:config.php.swo
+inurl:config.php.swo
+filetype:log intext:DB_PORT
+inurl:config.php.bak.old
+inurl:config.php.bak.old
+inurl:config.php.bak.old
+filetype:log intext:DB_CONNECTION
+inurl:config.php.bak.new
+inurl:config.php.bak.new
+inurl:config.php.bak.new
+filetype:log intext:DB_DRIVER
+inurl:config.php.bak~
+inurl:config.php.bak~
+inurl:config.php.bak~
+filetype:log intext:DB_CHARSET
+inurl:config.php.dist
+inurl:config.php.dist
+inurl:config.php.dist
+filetype:log intext:DB_COLLATION
+inurl:config.php.dist.old
+inurl:config.php.dist.old
+inurl:config.php.dist.old
+filetype:log intext:DB_PREFIX
+inurl:config.php.dist.new
+inurl:config.php.dist.new
+inurl:config.php.dist.new
+filetype:log intext:DB_SOCKET
+inurl:config.php.dist~
+inurl:config.php.dist~
+inurl:config.php.dist~
+filetype:log intext:DB_STRICT
+inurl:config.php.old~
+inurl:config.php.old~
+inurl:config.php.old~
+filetype:log intext:DB_FETCH_MODE
+inurl:config.php.orig
+inurl:config.php.orig
+inurl:config.php.orig
+filetype:log intext:DB_MIGRATIONS
+inurl:config.php.orig.old
+inurl:config.php.orig.old
+inurl:config.php.orig.old
+filetype:log intext:DB_PORT_NUMBER
+inurl:config.php.orig~
+inurl:config.php.orig~
+inurl:config.php.orig~
+filetype:log intext:DB_DEBUG
+inurl:config.php.save.old
+inurl:config.php.save.old
+inurl:config.php.save.old
+filetype:log intext:DB_LOGGER
+inurl:config.php.save~
+inurl:config.php.save~
+inurl:config.php.save~
+filetype:log intext:DB_PERSISTENT_CONNECTIONS
+inurl:config.php.swp.old
+inurl:config.php.swp.old
+inurl:config.php.swp.old
+filetype:log intext:DB_FETCH_CLASS
+inurl:config.php.swp~
+inurl:config.php.swp~
+inurl:config.php.swp~
+filetype:log intext:DB_SLOW_CONNECTION_THRESHOLD
+inurl:config.php.tar
+inurl:config.php.tar
+inurl:config.php.tar
+filetype:log intext:DB_MYSQLND
+inurl:config.php.tar.gz
+inurl:config.php.tar.gz
+inurl:config.php.tar.gz
+filetype:log intext:DB_I18N
+inurl:config.php.tgz
+inurl:config.php.tgz
+inurl:config.php.tgz
+filetype:log intext:DB_CONNECTIONS
+inurl:config.php.zip
+inurl:config.php.zip
+inurl:config.php.zip
+filetype:log intext:DB_COLLATION_CHARSET
+inurl:config.txt.save
+inurl:config.txt.save
+inurl:config.txt.save
+filetype:log intext:DB_REPLICATION
+inurl:config.txt.swp
+inurl:config.txt.swp
+inurl:config.txt.swp
+filetype:log intext:DB_MAX_EXECUTION_TIME
+inurl:config.txt.tar
+inurl:config.txt.tar
+inurl:config.txt.tar
+filetype:log intext:DB_TIMEZONE
+inurl:config.txt.tar.gz
+inurl:config.txt.tar.gz
+inurl:config.txt.tar.gz
+filetype:log intext:DB_CHARSET_COLLATION
+inurl:config.txt.tgz
+inurl:config.txt.tgz
+inurl:config.txt.tgz
+filetype:log intext:DB_FETCH_CLASS_DEFAULT
+inurl:config.txt.zip
+inurl:config.txt.zip
+inurl:config.txt.zip
+filetype:log intext:DB_FETCH_OBJ
+inurl:config.dist
+inurl:config.dist
+inurl:config.dist
+filetype:log intext:DB_PDO
+inurl:config.dist.old
+inurl:config.dist.old
+inurl:config.dist.old
+filetype:log intext:DB_CONNECT_TIMEOUT
+inurl:config.dist.new
+inurl:config.dist.new
+inurl:config.dist.new
+filetype:log intext:DB_SQLITE_BUSY_TIMEOUT
+inurl:config.dist~
+inurl:config.dist~
+inurl:config.dist~
+filetype:log intext:DB_POOLING
+inurl:config.old~
+inurl:config.old~
+inurl:config.old~
+filetype:log intext:DB_DRIVER_OPTIONS
+inurl:config.orig
+inurl:config.orig
+inurl:config.orig
+filetype:log intext:DB_PREFETCH
+inurl:config.orig.old
+inurl:config.orig.old
+inurl:config.orig.old
+filetype:log intext:DB_SESSION_DRIVER
+inurl:config.orig~
+inurl:config.orig~
+inurl:config.orig~
+filetype:log intext:DB_LOCKING_READS
+inurl:config.save.old
+inurl:config.save.old
+inurl:config.save.old
+filetype:log intext:DB_AGGREGATION
+inurl:config.save~
+inurl:config.save~
+inurl:config.save~
+filetype:log intext:DB_AUTOINCREMENT
+inurl:config.swp.old
+inurl:config.swp.old
+inurl:config.swp.old
+filetype:log intext:DB_CHARSET_NATIVE
+inurl:config.swp~
+inurl:config.swp~
+inurl:config.swp~
+filetype:log intext:DB_DATETIME_FORMAT
+inurl:config.tar
+inurl:config.tar
+inurl:config.tar
+filetype:log intext:DB_SEQUENCE_PREFIX
+inurl:config.tar.gz
+inurl:config.tar.gz
+inurl:config.tar.gz
+filetype:log intext:DB_DRIVER_CLASS
+inurl:config.tgz
+inurl:config.tgz
+inurl:config.tgz
+filetype:log intext:DB_DUMP_PATH
+inurl:config.zip
+inurl:config.zip
+inurl:config.zip
+filetype:log intext:DB_USERNAME
+inurl:config.xml
+inurl:config.xml
+inurl:config.xml
+filetype:log intext:DB_PASSWORD
+inurl:config.yml
+inurl:config.yml
+inurl:config.yml
+filetype:log intext:DB_CONNECTION_DRIVER
+inurl:config.yaml
+inurl:config.yaml
+inurl:config.yaml
+filetype:log intext:DB_CONNECTION_HOST
+inurl:config.yaws
+inurl:config.yaws
+inurl:config.yaws
+filetype:log intext:DB_CONNECTION_PORT
+inurl:config.yaws.dist
+inurl:config.yaws.dist
+inurl:config.yaws.dist
+filetype:log intext:DB_CONNECTION_DATABASE
+inurl:config.yaws.dist.old
+inurl:config.yaws.dist.old
+inurl:config.yaws.dist.old
+filetype:log intext:DB_CONNECTION_CHARSET
+inurl:config.yaws.dist.new
+inurl:config.yaws.dist.new
+inurl:config.yaws.dist.new
+filetype:log intext:DB_CONNECTION_COLLATION
+inurl:config.yaws.old
+inurl:config.yaws.old
+inurl:config.yaws.old
+filetype:log intext:DB_CONNECTION_PREFIX
+inurl:config.yaws.orig
+inurl:config.yaws.orig
+inurl:config.yaws.orig
+filetype:log intext:DB_CONNECTION_NAME
+inurl:config.yaws.orig.old
+inurl:config.yaws.orig.old
+inurl:config.yaws.orig.old
+filetype:log intext:DB_CONNECTION_USERNAME
+inurl:config.yaws.orig~
+inurl:config.yaws.orig~
+inurl:config.yaws.orig~
+filetype:log intext:DB_CONNECTION_PASSWORD
+inurl:config.yaws.save
+inurl:config.yaws.save
+inurl:config.yaws.save
+filetype:log intext:DB_CONNECTION_PREFIX
+inurl:config.yaws.save.old
+inurl:config.yaws.save.old
+inurl:config.yaws.save.old
+filetype:log intext:DB_CONNECTION_MAX_IDLE_TIME
+inurl:config.yaws.save~
+inurl:config.yaws.save~
+inurl:config.yaws.save~
+filetype:log intext:DB_CONNECTION_MIN_IDLE_TIME
